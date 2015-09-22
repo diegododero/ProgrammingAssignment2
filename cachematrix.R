@@ -1,6 +1,6 @@
-## makeCacheMatrix creates creates a special "matrix" that 
-## can cache its inverse
-## makeCacheMatrix is really a list containing the following functions
+## makeCacheMatrix creates a special "matrix" that 
+## can cache its inverse.
+## makeCacheMatrix is really a list containing the following functions:
 ## 1. set 			Sets the value of the matrix
 ## 2. get 			Returns the value of the matrix
 ## 3. setinverse 	Sets the value of the inverse of the matrix
@@ -22,8 +22,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## This function computes the inverse of the "special" matrix
-## returned by makeCacheMatrix
-## If the inverse of the matrix was already computed its value is
+## returned by makeCacheMatrix.
+## If the inverse of the matrix was already computed, its value is
 ## retrieved from the cache
 
 cacheSolve <- function(x, ...) {
